@@ -1,15 +1,15 @@
-#  Dino Runner Game (SDL2 + C++)
+# Dino Runner Game (SDL2 + C++)
 
 ---
 
-##  Giới thiệu
+## Giới thiệu
 
 Dino Runner là một trò chơi mini đơn giản được xây dựng bằng **C++ và thư viện SDL2**, lấy cảm hứng từ trò chơi Dinosaur khi mất mạng trên trình duyệt Chrome.  
 Trong game, bạn sẽ điều khiển chú khủng long vượt qua chướng ngại vật, ăn tim để tăng mạng sống, và cố gắng sống sót lâu nhất có thể!
 
 ---
 
-##  Gameplay
+## Gameplay
 
 - **Nhấn SPACE** để Dino nhảy qua chướng ngại vật.
 - **Ăn tim (Heart)** để tăng mạng (tối đa 3 mạng).
@@ -18,7 +18,7 @@ Trong game, bạn sẽ điều khiển chú khủng long vượt qua chướng n
 
 ---
 
-##  Điều khiển
+## Điều khiển
 
 | Hành động             | Phím |
 |------------------------|------|
@@ -28,9 +28,9 @@ Trong game, bạn sẽ điều khiển chú khủng long vượt qua chướng n
 
 ---
 
-##  Cấu trúc thư mục (Giải thích cực kỳ chi tiết)
+## Cấu trúc thư mục (Giải thích cực kỳ chi tiết)
 
-###  1. `Source/` — **Mã nguồn chính**
+### 1. `Source/` — **Mã nguồn chính**
 
 | File                 | Vai trò |
 |----------------------|---------|
@@ -44,7 +44,7 @@ Trong game, bạn sẽ điều khiển chú khủng long vượt qua chướng n
 
 ---
 
-###  2. `Images/` — **Tài nguyên hình ảnh**
+### 2. `Images/` — **Tài nguyên hình ảnh**
 
 | Ảnh            | Mô tả |
 |-----------------|------|
@@ -59,7 +59,7 @@ Trong game, bạn sẽ điều khiển chú khủng long vượt qua chướng n
 
 ---
 
-###  3. `Fonts/` — **Font chữ**
+### 3. `Fonts/` — **Font chữ**
 
 | File            | Vai trò |
 |-----------------|---------|
@@ -67,14 +67,14 @@ Trong game, bạn sẽ điều khiển chú khủng long vượt qua chướng n
 
 ---
 
-###  4. `DinoGame.sln` — **File Solution Visual Studio**
+### 4. `DinoGame.sln` — **File Solution Visual Studio**
 
 - Mở nhanh project bằng Visual Studio.
 - Quản lý liên kết SDL2 tự động.
 
 ---
 
-###  Sơ đồ luồng điều khiển tổng quát:
+### Sơ đồ luồng điều khiển tổng quát:
 
 ```plaintext
 main.cpp
@@ -85,7 +85,4 @@ Game
   ├── Heart
   ↓
 Render Background (sky, ground) + Object + UI (start, gameover)
-### video demo
-🔗 [Xem video demo tại đây] https://drive.google.com/file/d/1NK_I4Y3j-ACb8ttiRr5tmyN3H5lIjR34/view?usp=drive_link
-
-
+👉 🎥 Xem video demo game tại đây : https://drive.google.com/file/d/1NK_I4Y3j-ACb8ttiRr5tmyN3H5lIjR34/view?usp=drive_link
