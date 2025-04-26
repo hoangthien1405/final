@@ -85,3 +85,7 @@ Game
   ├── Heart
   ↓
 Render Background (sky, ground) + Object + UI (start, gameover)
+### video demo
+🔗 [Xem video demo tại đây] https://drive.google.com/file/d/1NK_I4Y3j-ACb8ttiRr5tmyN3H5lIjR34/view?usp=drive_link
+
+
